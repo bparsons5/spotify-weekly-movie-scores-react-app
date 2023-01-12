@@ -37,7 +37,6 @@
 }
 
 #main {
-    padding-bottom: 40px;
     left: 300px;
     position: absolute;
     width: calc(100vw - 300px);
@@ -53,7 +52,7 @@
 
 #actions {
     width: 350px;
-    margin: auto;
+    margin: 25px auto;
     text-align: center;
 }
 

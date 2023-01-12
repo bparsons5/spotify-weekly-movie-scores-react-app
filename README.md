@@ -7,6 +7,8 @@
 5. add to my spotify button
 6. Link to github
 7. should be able to reload /playlist and funciton normally
+8. mobile
+9. how to have it under same domain
 
 
 # Getting Started with Create React App

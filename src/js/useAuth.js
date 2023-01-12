@@ -3,7 +3,7 @@ import querystring from 'querystring'
 import {Buffer} from 'buffer';
 
 export default function useAuth(code) {
-  const redirect_uri = "http://192.168.0.203:3000/playlist";
+  const redirect_uri = "http://localhost:3000/playlist";
   const client_id = "4f26a217282c49cba3e4ba32726a203a";
   const client_secret = "1dedfdab9fda4d5a96d0c42e959e59c4";
   const [accessToken, setAccessToken] = useState();
