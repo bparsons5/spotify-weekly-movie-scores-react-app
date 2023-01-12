@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
+// import Container from 'react-bootstrap/Container';
+import Login from './components/Login'
+import Dashboard from './components/Dashboard'
+
+// 'URLSearchParams(window.location.search)' will get url string after the '?' & .get() will get the code value from the url
+const code = new URLSearchParams(window.location.search).get('code')
+// console.log(code)
+
+const link = window.location.href.includes('playlist')
+
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id='app'>
+      {link ? <Dashboard code={code} /> : <Login />}
     </div>
   );
 }

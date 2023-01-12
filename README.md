@@ -1,3 +1,14 @@
+# Weekly Movie Scores
+
+1. display user
+2. display playlist
+3. write the function to populate the playlist
+4. ensure it runs once a week
+5. add to my spotify button
+6. Link to github
+7. should be able to reload /playlist and funciton normally
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
